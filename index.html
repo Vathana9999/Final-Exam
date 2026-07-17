@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kan Sokhavathana - Personal Portfolio Website"
+    />
+    <title>Kan Sokhavathana | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <div class="progress-bar" id="progressBar"></div>
+
+    <div class="theme-toggle" id="themeToggle" title="Toggle dark mode">
+      <i class="bi bi-moon-fill"></i>
+    </div>
+
+    <div class="page-wrapper">
+      <aside id="header" class="sidebar">
+        <div class="sidebar-inner">
+          <div class="profile-img">
+            <img src="images/profile1.png" alt="Kan Sokhavathana" />
+          </div>
+
+          <div class="social-links">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-github"></i></a>
+          </div>
+
+          <nav class="navmenu">
+            <ul>
+              <li>
+                <a href="#home" class="active"
+                  ><i class="bi bi-house"></i> <span>Home</span></a
+                >
+              </li>
+              <li>
+                <a href="#about"
+                  ><i class="bi bi-person"></i> <span>About</span></a
+                >
+              </li>
+              <li>
+                <a href="#resume"
+                  ><i class="bi bi-file-earmark-text"></i>
+                  <span>Resume</span></a
+                >
+              </li>
+              <li>
+                <a href="#portfolio"
+                  ><i class="bi bi-images"></i> <span>Portfolio</span></a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="bi bi-hdd-stack"></i> <span>Services</span></a
+                >
+              </li>
+              <li>
+                <a href="#testimonials"
+                  ><i class="bi bi-chat-left-quote"></i>
+                  <span>Testimonials</span></a
+                >
+              </li>
+              <li>
+                <a href="#contact"
+                  ><i class="bi bi-envelope"></i> <span>Contact</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <section
+          id="home"
+          class="hero section"
+          style="
+            background-image: url(&quot;images/hero.jpg&quot;);
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div class="hero-overlay"></div>
+          <div class="container h-100 d-flex align-items-center">
+            <div class="hero-content" data-aos="fade-up">
+              <h2>Kan Sokhavathana</h2>
+              <p class="typed-text">I'm Developer<span id="typed"></span></p>
+              <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#portfolio" class="btn btn-outline-light"
+                  >View Portfolio</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>About</h2>
+              <p>Learn more about me</p>
+            </div>
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-4" data-aos="fade-right">
+                <img
+                  src="images/profile.png"
+                  alt="Profile"
+                  class="img-fluid rounded-4 shadow"
+                />
+              </div>
+              <div class="col-lg-8" data-aos="fade-left">
+                <h3>UI/UX Designer & Web Developer</h3>
+                <p>
+                  I am a passionate developer with experience in creating modern
+                  websites, beautiful interfaces, and robust web applications.
+                </p>
+                <div class="row mt-4">
+                  <div class="col-md-6">
+                    <ul class="list-unstyled info-list">
+                      <li><strong>Birthday:</strong> 10 jan 2006</li>
+                      <li><strong>Website:</strong> www.example.com</li>
+                      <li><strong>Phone:</strong> +855 95789499</li>
+                      <li><strong>City:</strong> Phnom Penh, Cambodia</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="list-unstyled info-list">
+                      <li><strong>Age:</strong> 19</li>
+                      <li><strong>Degree:</strong> Bachelor</li>
+                      <li><strong>Email:</strong> kansokhavathana@gmail.com</li>
+                      <li><strong>Freelance:</strong> Available</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Skills</h2>
+              <p>My technical proficiency</p>
+            </div>
+            <div class="row g-4">
+              <div class="col-lg-6" data-aos="fade-up">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>HTML</span><span>95%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="95"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>CSS</span><span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="90"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>Bootstrap</span><span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="90"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>JavaScript</span><span>85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="85"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>PHP</span><span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="80"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>MySQL</span><span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="80"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>Python</span><span>75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="75"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="700">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>Java</span><span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="70"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="resume" class="section">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Resume</h2>
+              <p>My professional journey</p>
+            </div>
+            <div class="row g-4">
+              <div class="col-lg-6" data-aos="fade-right">
+                <div class="resume-card">
+                  <h3>Education</h3>
+                  <div class="timeline-item">
+                    <h4>Bachelor of Information Technology</h4>
+                    <p class="text-muted">Western University • 2025 - 2026</p>
+                    <p>
+                      i just started my bachelor degree in western university
+                      and i will graduate in 2028
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-left">
+                <div class="resume-card">
+                  <h3>Experience</h3>
+                  <div class="timeline-item">
+                    <h4>Frontend Developer</h4>
+                    <p class="text-muted">2025 - Present</p>
+                  </div>
+                  <div class="timeline-item">
+                    <h4>Backend Developer</h4>
+                    <p class="text-muted">
+                      i just start studying some backend technologies
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <h4>UI Designer</h4>
+                    <p class="text-muted">i just start studying UI/UX design</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio" class="section bg-light">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Portfolio</h2>
+              <p>My recent work</p>
+            </div>
+            <div class="portfolio-filters" data-aos="fade-up">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter="app">App</button>
+              <button class="filter-btn" data-filter="web">Web</button>
+              <button class="filter-btn" data-filter="ui">UI/UX</button>
+              <button class="filter-btn" data-filter="photo">
+                Photography
+              </button>
+            </div>
+            <div class="row g-4 portfolio-grid" data-aos="fade-up">
+              <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                <a href="images/portfolio1.jpg" class="glightbox"
+                  ><img src="images/portfolio1.jpg" alt="Portfolio"
+                /></a>
+              </div>
+              <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+                <a href="images/portfolio2.jpg" class="glightbox"
+                  ><img src="images/portfolio2.jpg" alt="Portfolio"
+                /></a>
+              </div>
+              <div class="col-md-6 col-lg-4 portfolio-item" data-category="ui">
+                <a href="images/portfolio3.jpg" class="glightbox"
+                  ><img src="images/portfolio3.jpg" alt="Portfolio"
+                /></a>
+              </div>
+              <div
+                class="col-md-6 col-lg-4 portfolio-item"
+                data-category="photo"
+              >
+                <a href="images/headphone1.jpg" class="glightbox"
+                  ><img src="images/headphone1.jpg" alt="Portfolio"
+                /></a>
+              </div>
+              <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                <a href="images/heandphone2.jpg" class="glightbox"
+                  ><img src="images/heandphone2.jpg" alt="Portfolio"
+                /></a>
+              </div>
+              <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+                <a href="images/heandphone3.jpg" class="glightbox"
+                  ><img src="images/heandphone3.jpg" alt="Portfolio"
+                /></a>
+              </div>
+              <div class="col-md-6 col-lg-4 portfolio-item" data-category="ui">
+                <a href="images/laptop1.jpg" class="glightbox"
+                  ><img src="images/laptop1.jpg" alt="Portfolio"
+                /></a>
+              </div>
+              <div
+                class="col-md-6 col-lg-4 portfolio-item"
+                data-category="photo"
+              >
+                <a href="images/laptop2.jpg" class="glightbox"
+                  ><img src="images/laptop2.jpg" alt="Portfolio"
+                /></a>
+              </div>
+              <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                <a href="images/laptop3.jpg" class="glightbox"
+                  ><img src="images/laptop3.jpg" alt="Portfolio"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="section">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Services</h2>
+              <p>What I offer</p>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="service-card">
+                  <i class="bi bi-code-slash"></i>
+                  <h4>Web Development</h4>
+                  <p>Modern and responsive websites built with clean code.</p>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-4"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="service-card">
+                  <i class="bi bi-palette"></i>
+                  <h4>UI Design</h4>
+                  <p>Beautiful interfaces tailored to your audience.</p>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-4"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="service-card">
+                  <i class="bi bi-server"></i>
+                  <h4>Backend Development</h4>
+                  <p>
+                    Powerful and scalable server-side development solutions.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-4"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="service-card">
+                  <i class="bi bi-database"></i>
+                  <h4>Database Design</h4>
+                  <p>Structured and secure database architecture.</p>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div class="service-card">
+                  <i class="bi bi-phone"></i>
+                  <h4>Mobile App</h4>
+                  <p>Mobile-friendly applications and responsive layouts.</p>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-4"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div class="service-card">
+                  <i class="bi bi-search"></i>
+                  <h4>SEO Optimization</h4>
+                  <p>Search-engine-ready websites built for visibility.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="testimonials" class="section bg-light">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Testimonials</h2>
+              <p>What clients say</p>
+            </div>
+            <div class="swiper testimonial-slider" data-aos="fade-up">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <img src="images/profile2.jpg" alt="Client" />
+                    <p>“Excellent work and attention to detail.”</p>
+                    <h4>kry Saven</h4>
+                    <span>Product Manager</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <img src="images/profile3.jpg" alt="Client" />
+                    <p>“Beautiful design and very professional service.”</p>
+                    <h4>Sarah Smith</h4>
+                    <span>Designer</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <img src="images/profile2.jpg" alt="Client" />
+                    <p>“Great communication and quality output.”</p>
+                    <h4>Michael Brown</h4>
+                    <span>Founder</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Contact</h2>
+              <p>Get in touch</p>
+            </div>
+            <div class="row g-4">
+              <div class="col-lg-4" data-aos="fade-right">
+                <div class="contact-info-card">
+                  <h3>Address</h3>
+                  <p>3 Street, Phnom Penh, Cambodia</p>
+                  <h3>Email</h3>
+                  <p>kansokhavathana@gmail.com</p>
+                  <h3>Phone</h3>
+                  <p>+855 95 789 499</p>
+                  <h4>Facebook</h4>
+                  <p>kansokhavathana</p>
+                </div>
+              </div>
+              <div class="col-lg-8" data-aos="fade-left">
+                <iframe
+                  class="map-frame"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9297.936642698418!2d104.8826790886307!3d11.530266881423534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951003600014f%3A0x708a7041a3a576c2!2sWestern%20University%20-%20Steung%20Mean%20Chey!5e0!3m2!1sen!2skh!4v1784305024519!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+                <form id="contactForm" class="mt-4">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        placeholder="Subject"
+                        required
+                      />
+                    </div>
+                    <div class="col-12">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="5"
+                        placeholder="Message"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div
+        class="container d-flex justify-content-between align-items-center flex-wrap gap-3"
+      >
+        <p class="mb-0">
+          © 2026 <strong>Kansokhavathana</strong>. All Rights Reserved
+        </p>
+        <div class="footer-social">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" id="backToTop"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/purecounterjs@1.5.0/dist/purecounter_vanilla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
